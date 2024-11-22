@@ -47,7 +47,6 @@ export const PartyList = ({
               index % 2 === 0 ? "bg-gray-100" : "bg-white"
             }`}
           >
-            {/* Role Selector */}
             <select
               className="border rounded px-2 py-1"
               value={member.role}
@@ -61,7 +60,6 @@ export const PartyList = ({
               ))}
             </select>
 
-            {/* Class Selector */}
             <select
               className="border rounded px-2 py-1"
               value={member.class}
@@ -75,7 +73,6 @@ export const PartyList = ({
               ))}
             </select>
 
-            {/* Heartrune Selector */}
             <select
               className="border rounded px-2 py-1"
               value={member.heartrune}
@@ -91,7 +88,6 @@ export const PartyList = ({
               ))}
             </select>
 
-            {/* Name Selector */}
             <select
               className="border rounded px-2 py-1"
               value={member.name}
